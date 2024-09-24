@@ -7,7 +7,7 @@ const Home = () => {
         <div className="flex flex-col items-start ml-[100px] fade-in-left">
           <h1 className="text-4xl font-bold items-center ">HI THERE!</h1>
           <h1 className="text-4xl font-bold ">
-            MY NAME IS CHRIS GERALD
+            MY NAME IS CHRIS GERALD TADENA
           </h1>
           <p className="mt-2 text-lg w-[1000px]">
             I've developed a deep passion for programming, and every project I
