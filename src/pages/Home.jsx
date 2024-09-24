@@ -1,22 +1,27 @@
 import "./Home.css";
-import waveImage from '../assets/wave.png';
+import waveImage from "../assets/wave.png";
 const Home = () => {
   return (
-    <div className="p-8 mt-8">
-      <div className="flex items-start justify-between w-full h-[350px]">
-        <div className="flex flex-col items-start ml-[100px] pt-[100px]">
+    <div className=" mt-8 h-[960px]">
+      <div className="flex items-center justify-between w-full h-[400px] ">
+        <div className="flex flex-col items-start ml-[100px] fade-in-left">
           <h1 className="text-4xl font-bold items-center ">HI THERE!</h1>
-          <h1 className="text-4xl font-bold fade-in-left">MY NAME IS CHRIS GERALD</h1>
-          <p className="mt-2 text-lg">I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️ <br />Whenever possible, I also apply my passion for developing products with Node.js <br /> and Modern Javascript Library and Frameworks  like React.js and Next.js</p>
-          
+          <h1 className="text-4xl font-bold ">
+            MY NAME IS CHRIS GERALD
+          </h1>
+          <p className="mt-2 text-lg w-[1000px]">
+            I've developed a deep passion for programming, and every project I
+            take on helps me grow and refine my skills. Along the way, I've
+            embraced modern web technologies, particularly Node.js and
+            JavaScript libraries like React.js.
+            Whether it's building Front-end applications or experimenting with
+            new features, I always strive to create impactful, high-quality
+            products.
+          </p>
         </div>
         <img src={waveImage} alt="Wave" className="w-[300px] h-[300px]" />
-       
       </div>
 
-      <div>
-        {/* Additional content can go here */}
-      </div>
     </div>
   );
 };
