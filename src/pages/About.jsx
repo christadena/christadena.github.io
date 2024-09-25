@@ -2,10 +2,10 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className="about-section p-8 mt-8 max-w-[800px] mx-auto">
+    <div className="about-section p-8 mt-8 max-w-[800px] mx-auto" id="about">
       <h2 className="text-4xl font-bold mb-4">About Me</h2>
       <p className="text-lg leading-relaxed text-gray-700 mb-4">
-        Hi, I'm Chris Gerald, a passionate and dedicated web developer with a
+        Hi, I am Chris Gerald, a passionate and dedicated web developer with a
         strong focus on building impactful web applications. With a background
         in programming and modern technologies, I have honed my skills in
         creating seamless and intuitive user experiences. My journey into web
@@ -15,7 +15,7 @@ const About = () => {
         <span className="font-semibold"> Node.js</span>.
       </p>
       <p className="text-lg leading-relaxed text-gray-700 mb-4">
-        Over the years, I've contributed to a range of projects, from dynamic
+        Over the years, I have contributed to a range of projects, from dynamic
         single-page applications to full-stack platforms. I’m a firm believer in
         the power of clean, efficient code, and I’m always on the lookout for
         new technologies and methodologies to improve my workflow and output.
@@ -24,7 +24,7 @@ const About = () => {
       </p>
       <p className="text-lg leading-relaxed text-gray-700">
         I’m constantly learning, growing, and taking on challenges that push me
-        to develop as both a developer and a creator. If you're looking for
+        to develop as both a developer and a creator. If you are looking for
         someone who is detail-oriented, loves solving problems, and is
         passionate about creating meaningful applications.
       </p>

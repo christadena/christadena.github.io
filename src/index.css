@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 /* Reset some default browser styles */
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
@@ -24,6 +27,13 @@ nav {
   padding: 1rem 2rem;
   background-color: #343a40; /* Dark background for the navbar */
   color: white;
+  height: 65px;
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
 }
 
 nav h1 {
