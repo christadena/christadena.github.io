@@ -2,7 +2,10 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className="about-section p-8 mt-8 max-w-[800px] mx-auto" id="about">
+    <div id="about" className="pt-[100px]">
+
+    
+    <div className="about-section p-8 mt-8 max-w-[800px] mx-auto" >
       <h2 className="text-4xl font-bold mb-4">About Me</h2>
       <p className="text-lg leading-relaxed text-gray-700 mb-4">
         Hi, I am Chris Gerald, a passionate and dedicated web developer with a
@@ -14,14 +17,7 @@ const About = () => {
         <span className="font-semibold">React.js </span>and
         <span className="font-semibold"> Node.js</span>.
       </p>
-      <p className="text-lg leading-relaxed text-gray-700 mb-4">
-        Over the years, I have contributed to a range of projects, from dynamic
-        single-page applications to full-stack platforms. I’m a firm believer in
-        the power of clean, efficient code, and I’m always on the lookout for
-        new technologies and methodologies to improve my workflow and output.
-        When I’m not coding, you can find me exploring new tools, learning more
-        about UI/UX design, or contributing to open-source communities.
-      </p>
+
       <p className="text-lg leading-relaxed text-gray-700">
         I’m constantly learning, growing, and taking on challenges that push me
         to develop as both a developer and a creator. If you are looking for
@@ -34,7 +30,8 @@ const About = () => {
       </h1>
       <div>
         <ul className="wrapper">
-          <li className="icon facebook">
+         <a href="https://www.facebook.com/cg.tadena/" target="_blank">
+         <li className="icon facebook">
             <span className="tooltip">Facebook</span>
             <svg
               viewBox="0 0 320 512"
@@ -45,6 +42,7 @@ const About = () => {
               <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path>
             </svg>
           </li>
+         </a>
           <li className="icon twitter">
             <span className="tooltip">Twitter</span>
             <svg
@@ -71,6 +69,7 @@ const About = () => {
           </li>
         </ul>
       </div>
+    </div>
     </div>
   );
 };

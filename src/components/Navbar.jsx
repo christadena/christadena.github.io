@@ -6,18 +6,18 @@ const Navbar = () => {
       <h1>
         <a href="#">CT</a>
       </h1>
-      <ul>
-        <li>
+      <ul className="nav-btn">
+        <li className="text-white hover:text-gray-400 transition duration-300">
           <a href="#home" className="transition duration-300 cursor-pointer">
             Home
           </a>
         </li>
-        <li>
+        <li className="text-white hover:text-gray-400 transition duration-300">
           <a href="#about" className="transition duration-300 cursor-pointer">
             About
           </a>
         </li>
-        <li>
+        <li className="text-white hover:text-gray-400 transition duration-300">
           <a
             href="#projects"
             className="transition duration-300 cursor-pointer"
@@ -28,7 +28,8 @@ const Navbar = () => {
         <li>
         </li>
         
-          <button className="button">
+        <a href="https://github.com/christadena" target="_blank">
+        <button className="button">
             <svg
               width="24"
               height="24"
@@ -43,6 +44,7 @@ const Navbar = () => {
             </svg>
             <p className="text">Click me</p>
           </button>
+        </a>
           </ul>
        
     </nav>
